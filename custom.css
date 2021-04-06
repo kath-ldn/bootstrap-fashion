@@ -1,0 +1,348 @@
+html, body {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif!important;
+}
+
+.black{
+    color: #000000!important;
+    opacity: 1!important;
+}
+
+.sm-white-divider{
+    color: #FFFFFF!important;
+    height: 6px!important;
+    width: 80px!important;
+    opacity: 0.9!important;
+}
+
+.xs-gold-divider{
+    color: rgb(184, 154, 106)!important;
+    height: 4px!important;
+    width: 40px!important;
+    opacity: 0.9!important;
+}
+
+.thick-divider{
+    height:12px!important;
+}
+
+.border-black{
+    border-color: #000000!important;
+    opacity: 1!important;
+}
+
+.border-12{
+    border-width: 10px!important;
+}
+
+.fit-content{
+    width: fit-content!important;
+    height: fit-content!important;
+}
+
+.fs-tiny{
+    font-size: 14px;
+}
+
+.ts-main{
+    background-image: url("./assets/img_beachwear.jpg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100% 1%;
+}
+
+.ts-side-1{
+    background-image: url("./assets/img_athleisure.jpeg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100% 1%;
+}
+
+.ts-side-2{
+    background-image: url("./assets/img_accessories.jpg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 40% 100%;
+}
+
+.ts-side-3{
+    background-image: url("./assets/img_skin.jpeg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+}
+
+.ts-side-4{
+    background-image: url("./assets/img_bikini.jpeg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+.ts-side-5{
+    background-image: url("./assets/img_travel.jpeg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100% 60%;
+}
+
+.ts-side-6{
+    background-image: url("./assets/img_workwear.jpeg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}
+
+#review-main{
+    background-image: url("./assets/img_exhibition.jpg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+.red:hover{
+    cursor: pointer;
+    -webkit-filter: invert(40%) grayscale(100%) brightness(60%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(3);
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+    transition: 0.1s;
+}
+
+.h-feature-container{
+    height: 2200px;
+}
+
+.vh-50{
+    height: 50vh;
+}
+
+.fashion-1{
+    background-image: url("./assets/img_bag.jpeg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%; 
+}
+
+.fashion-2{
+    background-image: url("./assets/img_yellow.jpg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%; 
+}
+
+.beauty-1{
+    background-image: url("./assets/img_spa.jpeg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%; 
+}
+
+.beauty-2{
+    background-image: url("./assets/img_happy.jpeg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%; 
+}
+
+.news-1{
+    background-image: url("./assets/img_music.jpg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 10% 10%; 
+}
+
+.news-2{
+    background-image: url("./assets/img_sunglasses.jpeg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 55% 100%; 
+}
+
+.h-categories-container{
+    margin-bottom: 200px;
+}
+
+.icon-size{
+    width: 40px;
+    height: 40px;
+}
+
+/*XXL+ ONLY*/
+@media (min-width: 1400px){
+
+}
+
+/*XL- ONLY*/
+@media (max-width: 1400px){
+
+}
+
+/*L- ONLY*/
+@media (max-width: 1200px){
+    .h-feature-container{
+        height: 2700px;
+    }
+
+    .ts-side-1{
+        background-position: 50% 1%;
+    }
+    
+    .ts-side-2{
+        background-position: 60% 50%;
+    }
+    
+    .ts-side-3{
+        background-position: 70% 90%;
+    }
+    
+    .ts-side-4{
+        background-position: 30% 63%;
+    }
+    
+    .ts-side-5{
+        background-position: 20% 60%;
+    }
+    
+    .ts-side-6{
+        background-position: 50% 20%;
+    }
+}
+
+/*M- ONLY*/
+@media (max-width: 992px){
+    .h-feature-container{
+        height: 3200px;
+    }
+
+    .ts-side-1{
+        background-position: 50% 50%;
+    }
+    
+    .ts-side-2{
+        background-position: 55% 50%;
+    }
+    
+    .ts-side-3{
+        background-position: 50% 100%;
+    }
+    
+    .ts-side-4{
+        background-position: 40% 10%;
+    }
+    
+    .ts-side-5{
+        background-position: 40% 50%;
+    }
+    
+    .ts-side-6{
+        background-position: 50% 20%;
+    }
+
+    .h-categories-container{
+        margin-bottom: 220px;
+    }
+}
+
+/*S- ONLY*/
+@media (max-width: 768px) {
+
+    .h-feature-container{
+        height: auto
+    }
+
+    .m-top-xl{
+        margin-top: 400px;
+    }
+
+    .ts-side-1{
+        background-position: 100% 1%;
+    }
+    
+    .ts-side-2{
+        background-position: 1% 50%;
+    }
+    
+    .ts-side-3{
+        background-position: 100% 90%;
+    }
+    
+    .ts-side-4{
+        background-position: 100% 63%;
+    }
+    
+    .ts-side-5{
+        background-position: 100% 60%;
+    }
+    
+    .ts-side-6{
+        background-position: 100% 20%;
+    }
+
+    .h-categories-container{
+        margin-bottom: 270px;
+    }
+
+}
+
+/*XS- ONLY*/
+@media (max-width: 576px){
+    .position-xs{
+        position: static!important;
+        transform: none!important;
+        top: 0!important;
+        left: 0!important;
+        margin-bottom: 30px;
+    }
+
+    .position-xs-2{
+        position: static!important;
+        transform: none!important;
+        top: 0!important;
+        left: 0!important;
+        margin-bottom: 120px;
+    }
+
+    .ts-side-1{
+        background-position: 100% 1%;
+        height: fit-content;
+    }
+    
+    .ts-side-2{
+        background-position: 100% 25%;
+        height: fit-content;
+    }
+    
+    .ts-side-3{
+        background-position: 100% 90%;
+        height: fit-content;
+    }
+    
+    .ts-side-4{
+        background-position: 100% 35%;
+        height: fit-content;
+    }
+    
+    .ts-side-5{
+        background-position: 100% 43%;
+        height: fit-content;
+    }
+    
+    .ts-side-6{
+        background-position: 100% 6%;
+        height: fit-content;
+    }
+
+    .mobile-margin-l{
+        margin-top: 500px;
+    }
+
+    .mobile-margin-s{
+        margin-top: 0px;
+    }
+    
+    .h-categories-container{
+        margin-bottom: 750px;
+    }
+}

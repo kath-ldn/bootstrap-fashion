@@ -1,0 +1,109 @@
+html, body {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif!important;
+}
+
+.black{
+    color: #000000!important;
+    opacity: 1!important;
+}
+
+.sm-white-divider{
+    color: #FFFFFF!important;
+    height: 6px!important;
+    width: 80px!important;
+    opacity: 0.9!important;
+}
+
+.xs-gold-divider{
+    color: rgb(184, 154, 106)!important;
+    height: 4px!important;
+    width: 40px!important;
+    opacity: 0.9!important;
+}
+
+.thick-divider{
+    height:12px!important;
+}
+
+.border-black{
+    border-color: #000000!important;
+    opacity: 1!important;
+}
+
+.border-12{
+    border-width: 10px!important;
+}
+
+.fit-content{
+    width: fit-content!important;
+}
+
+.fs-tiny{
+    font-size: 14px;
+}
+
+/* .vh-75{
+    height: 75vh;
+}*/
+
+/* add background images*/
+/* top-stories */
+.ts-main{
+    background-image: url("./assets/img_beachwear.jpg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100% 1%;
+}
+
+.ts-side-1{
+    background-image: url("./assets/img_athleisure.jpeg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100% 1%;
+}
+
+.ts-side-2{
+    background-image: url("./assets/img_accessories.jpg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 40% 100%;
+}
+
+.ts-side-3{
+    background-image: url("./assets/img_skin.jpeg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+}
+
+.ts-side-4{
+    background-image: url("./assets/img_bikini.jpeg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+.ts-side-5{
+    background-image: url("./assets/img_travel.jpeg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100% 60%;
+}
+
+.ts-side-6{
+    background-image: url("./assets/img_workwear.jpeg")!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}
+
+.red:hover{
+    cursor: pointer;
+    -webkit-filter: invert(40%) grayscale(100%) brightness(60%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(3);
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+    transition: 0.1s;
+}

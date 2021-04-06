@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 125px;
+        font-family: "Baskerville Old Face";
+      }
+    </style>
+  </defs>
+  <text id="bootstrap" class="cls-1" x="13.539" y="93.125">bootstrap</text>
+  <text id="fashion" class="cls-1" x="200.802" y="186.116">fashion</text>
+</svg>

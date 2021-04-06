@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="custom.css">
+    <title>bootstrap fashion</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./icons/icon.png"/>
+  </head>
+  <hr class="black thick-divider mt-0">
+<!-- Header container -->
+  <header class="container-fluid">
+    <div class="row justify-content-between">
+      <div class="col">
+        <!-- Logo -->
+
+        <div class="container-fluid">
+          <embed class="img-fluid" src="./icons/logo.svg">
+        </div>
+      </div>
+      <div class="col-2 d-none d-sm-none d-md-block">
+        <!-- Login & Subscribe -->
+        <div class="container-fluid d-flex flex-row-reverse">
+          <button class="btn btn-dark roboto" type="submit">
+            Sign In
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Main navigation -->
+  <hr class="black mb-0">
+  <nav class="navbar navbar-expand-lg navbar-light black">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 roboto fs-tiny text-uppercase">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">fashion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">beauty</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">art & lifestyle</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">runway</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">news</a>
+          </li>
+          <li class="nav-item d-none d-md-block d-lg-none">
+            <a class="nav-link text-dark" href="#">sign in</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="search" aria-label="search">
+          <button class="btn btn-outline-dark" type="submit">
+            <img src="./icons/search.svg" alt="search" width="18" height="18" class="mb-1">
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Top Stories -->
+  <hr class="black mt-0 mb-0">
+  <div class="container pb-5">
+    <h2 class="display-4 pt-1 pb-4 border-top border-black border-12 fit-content">Top Stories</h2>
+      <div class="row">
+        <div class="col-md-6 mb-3 h-feature-container">
+          <div class="sticky-md-top w-100 vh-100 ts-main d-flex flex-column justify-content-end text-white align-items-center red">
+            <h3 class="roboto text-uppercase fs-tiny fw-bold">Fashion Trends</h3>
+            <h2 class="fs-1 w-75 text-center">16 Beachwear Trends to Know Now</h2>
+            <hr class="sm-white-divider">
+            <h3 class="roboto text-uppercase fs-tiny fw-bold mb-5">By Ella Parson</h3>
+          </div>
+        </div>
+        <div class="col-sm h-auto">
+          <div class="w-100 h-25 ts-side-1 d-flex flex-column justify-content-end align-items-end red position-relative"></div>
+          <div class="bg-white w-75 h-auto">
+            <div class="pt-4 ps-4 p bg-white w-auto h-25 position-relative top-0 start-100 translate-middle position-xs">
+              <h3 class="roboto text-uppercase fs-tiny">Fashion Trends</h3>
+              <h2 class="fs-5 w-75 mb-4">You need this activewear in your life</h2>
+              <hr class="xs-gold-divider red mb-3">
+              <h3 class="roboto text-uppercase fs-tiny mb-0">By Lee Chen</h3>
+            </div>
+          </div>
+          <div class="w-100 h-25 ts-side-2 d-flex flex-column justify-content-end align-items-end red position-relative"></div>
+          <div class="bg-white w-75 h-auto">
+            <div class="pt-4 ps-4 p bg-white w-auto h-25 position-relative top-0 start-100 translate-middle position-xs">
+              <h3 class="roboto text-uppercase fs-tiny">Fashion Trends</h3>
+              <h2 class="fs-5 w-75 mb-4">Summer Accessories for Every Occasion</h2>
+              <hr class="xs-gold-divider red mb-3">
+              <h3 class="roboto text-uppercase fs-tiny mb-0">By Ana Jones</h3>
+            </div>
+          </div>
+          <div class="w-100 h-25 ts-side-3 d-flex flex-column justify-content-end align-items-end red position-relative"></div>
+          <div class="bg-white w-75 h-auto">
+            <div class="pt-4 ps-4 p bg-white w-auto h-25 position-relative top-0 start-100 translate-middle position-xs">
+              <h3 class="roboto text-uppercase fs-tiny">Beauty</h3>
+              <h2 class="fs-5 w-75 mb-4">The Skin Care Line You've Been Waiting For</h2>
+              <hr class="xs-gold-divider red mb-3">
+              <h3 class="roboto text-uppercase fs-tiny mb-0">By Sara Petersson</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm h-auto mobile-margin-l">
+          <div class="w-100 h-25 ts-side-4 d-flex flex-column justify-content-end align-items-end red position-relative"></div>
+          <div class="bg-white w-75 h-auto">
+            <div class="pt-4 ps-4 p bg-white w-auto h-25 position-relative top-0 start-100 translate-middle position-xs">
+              <h3 class="roboto text-uppercase fs-tiny">Travel</h3>
+              <h2 class="fs-5 w-75 mb-4">12 Beaches to Visit in Italy</h2>
+              <hr class="xs-gold-divider red mb-3">
+              <h3 class="roboto text-uppercase fs-tiny mb-0">By Sam Ford</h3>
+            </div>
+          </div>
+          <div class="w-100 h-25 ts-side-5 d-flex flex-column justify-content-end align-items-end red position-relative"></div>
+          <div class="bg-white w-75 h-auto">
+            <div class="pt-4 ps-4 p bg-white w-auto h-25 position-relative top-0 start-100 translate-middle position-xs">
+              <h3 class="roboto text-uppercase fs-tiny">Travel</h3>
+              <h2 class="fs-5 w-75 mb-4">Where we're travelling in 2022</h2>
+              <hr class="xs-gold-divider red mb-3">
+              <h3 class="roboto text-uppercase fs-tiny mb-0">By Aadya Ram</h3>
+            </div>
+          </div>
+          <div class="w-100 h-25 ts-side-6 d-flex flex-column justify-content-end align-items-end red position-relative"></div>
+          <div class="bg-white w-75 h-auto">
+            <div class="pt-4 ps-4 p bg-white w-auto h-25 position-relative top-0 start-100 translate-middle position-xs">
+              <h3 class="roboto text-uppercase fs-tiny">Work & Careers</h3>
+              <h2 class="fs-5 w-75 mb-4">Saying goodbye to imposter syndrome</h2>
+              <hr class="xs-gold-divider red mb-3">
+              <h3 class="roboto text-uppercase fs-tiny mb-0">By Lucía Garcia</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!-- Review -->
+  <hr class="black mb-0 m-top-xl">
+  <div class="container w-100 vh-100 align-items-center">
+    <h2 class="display-4 pt-1 pb-4 border-top border-black border-12 fit-content">Review</h2>
+    <div class="h-75 w-100 red" id="review-main"></div>
+  </div>
+  <div class="container w-50 align-items-center border-start border-black">
+    <div class="roboto text-uppercase ps-3 pb-1 fs-tiny">REVIEW</div>
+    <div class="fs-2 fst-italic  p-3">We Went To To This Years' Hottest Art Exhibitions - Which Are Worth Visiting? </div>
+    <div class="roboto text-uppercase p-3 fs-tiny">By Bootstrap Fashion &nbsp; <span class="text-secondary"> 1 April 2021 </span></div>
+  </div>
+  <!-- Fashion -->
+  <hr class="black mb-0 mt-5 m-top-xl">
+  <div class="container h-categories-container w-100 vh-50 align-items-center">
+    <h2 class="display-4 pt-1 pb-4 border-top border-black border-12 fit-content">Fashion</h2>
+      <div class="row h-100">
+        <div class="col-sm h-100 position-xs-2">
+          <div class="w-50 h-75 fashion-1 d-flex flex-column justify-content-end align-items-end red position-relative"></div>
+            <div class="bg-white w-75 h-auto">
+              <div class="pt-4 ps-4 p bg-white w-auto h-25 position-relative top-0 start-100 translate-middle position-xs">
+                <h3 class="roboto text-uppercase fs-tiny">Fashion</h3>
+                <h2 class="fs-5 w-75 mb-4">10 Sustainable Bags For Every Budget </h2>
+                <hr class="xs-gold-divider red mb-3">
+                <h3 class="roboto text-uppercase fs-tiny mb-0">By Ana Jones &nbsp; <span class="text-secondary"> 2 April 2021 </span></h3>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm h-100 position-xs-2 mobile-margin-s">
+          <div class="w-50 h-75 fashion-2 d-flex flex-column justify-content-end align-items-end red position-relative"></div>
+            <div class="bg-white w-75 h-auto">
+              <div class="pt-4 ps-4 p bg-white w-auto h-25 position-relative top-0 start-100 translate-middle position-xs caption-box">
+                <h3 class="roboto text-uppercase fs-tiny">Fashion</h3>
+                <h2 class="fs-5 w-75 mb-4">Our Fave Day-To-Night Looks This Season </h2>
+                <hr class="xs-gold-divider red mb-3">
+                <h3 class="roboto text-uppercase fs-tiny mb-0">By Lucía Garcia &nbsp; <span class="text-secondary"> 4 April 2021 </span></h3>
+              </div>
+            </div>
+        </div>
+      </div>
+  </div>
+    <!-- Beauty -->
+    <hr class="black mb-0 mt-5 m-top-xl">
+    <div class="container h-categories-container w-100 vh-50 align-items-center">
+      <h2 class="display-4 pt-1 pb-4 border-top border-black border-12 fit-content">Beauty</h2>
+        <div class="row h-100">
+          <div class="col-sm h-100 position-xs-2">
+            <div class="w-50 h-75 beauty-1 d-flex flex-column justify-content-end align-items-end red position-relative"></div>
+              <div class="bg-white w-75 h-auto">
+                <div class="pt-4 ps-4 p bg-white w-auto h-25 position-relative top-0 start-100 translate-middle position-xs">
+                  <h3 class="roboto text-uppercase fs-tiny">Beauty</h3>
+                  <h2 class="fs-5 w-75 mb-4">27 Luxurious Spa Days Across The UK </h2>
+                  <hr class="xs-gold-divider red mb-3">
+                  <h3 class="roboto text-uppercase fs-tiny mb-0">By Sam Ford &nbsp; <span class="text-secondary"> 2 April 2021 </span></h3>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm h-100 position-xs-2 mobile-margin-s">
+            <div class="w-50 h-75 beauty-2 d-flex flex-column justify-content-end align-items-end red position-relative"></div>
+              <div class="bg-white w-75 h-auto">
+                <div class="pt-4 ps-4 p bg-white w-auto h-25 position-relative top-0 start-100 translate-middle position-xs caption-box">
+                  <h3 class="roboto text-uppercase fs-tiny">Beauty</h3>
+                  <h2 class="fs-5 w-75 mb-4">10 Mascaras For Every Occasion </h2>
+                  <hr class="xs-gold-divider red mb-3">
+                  <h3 class="roboto text-uppercase fs-tiny mb-0">By Lee Chen &nbsp; <span class="text-secondary"> 4 April 2021 </span></h3>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+  <!-- News -->
+  <hr class="black mb-0 mt-5 m-top-xl">
+  <div class="container h-categories-container w-100 vh-50 align-items-center">
+    <h2 class="display-4 pt-1 pb-4 border-top border-black border-12 fit-content">News</h2>
+      <div class="row h-100">
+        <div class="col-sm h-100 position-xs-2">
+          <div class="w-50 h-75 news-1 d-flex flex-column justify-content-end align-items-end red position-relative"></div>
+            <div class="bg-white w-75 h-auto">
+              <div class="pt-4 ps-4 p bg-white w-auto h-25 position-relative top-0 start-100 translate-middle position-xs">
+                <h3 class="roboto text-uppercase fs-tiny">News</h3>
+                <h2 class="fs-5 w-75 mb-4">This New Artist Is Filling Up Our Summer Playlists </h2>
+                <hr class="xs-gold-divider red mb-3">
+                <h3 class="roboto text-uppercase fs-tiny mb-0">By Evelyn Smith &nbsp; <span class="text-secondary"> 2 April 2021 </span></h3>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm h-100 position-xs-2 mobile-margin-s">
+          <div class="w-50 h-75 news-2 d-flex flex-column justify-content-end align-items-end red position-relative"></div>
+            <div class="bg-white w-75 h-auto">
+              <div class="pt-4 ps-4 p bg-white w-auto h-25 position-relative top-0 start-100 translate-middle position-xs caption-box">
+                <h3 class="roboto text-uppercase fs-tiny">News</h3>
+                <h2 class="fs-5 w-75 mb-4">The Real Reason Cara Left Instagram </h2>
+                <hr class="xs-gold-divider red mb-3">
+                <h3 class="roboto text-uppercase fs-tiny mb-0">By Adam Chang &nbsp; <span class="text-secondary"> 4 April 2021 </span></h3>
+              </div>
+            </div>
+        </div>
+      </div>
+  </div>
+  <!-- Footer -->
+  <div class="container-fluid d-flex flex-column align-items-center justify-content-center bg-dark text-muted">
+    <div class="container-fluid d-flex flex-row pt-5 align-items-center justify-content-center">
+      <div class="rounded-circle border border-white text-white icon-size d-flex align-items-center justify-content-center ms-2 me-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+        </svg>
+      </div>
+    <div class="rounded-circle border border-white text-white icon-size d-flex align-items-center justify-content-center ms-2 me-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+        </svg>
+      </div>
+    <div class="rounded-circle border border-white text-white icon-size d-flex align-items-center justify-content-center ms-2 me-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+        </svg>
+      </div>
+    <div class="rounded-circle border border-white text-white icon-size d-flex align-items-center justify-content-center ms-2 me-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+          <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+        </svg>
+      </div>
+    </div>
+    <h3 class="pt-4 display-5">Front-End Media</h3>
+    <nav class="navbar navbar-nav"> 
+    <div class="container-fluid mb-0">
+      <ul class="navbar navbar-nav roboto fs-tiny text-uppercase flex-md-row mt-1">
+        <li class="nav-item pe-2 ps-2">
+          <a class="nav-link link-light" aria-current="page" href="#">bootstrap fashion</a>
+        </li>
+        <li class="nav-item pe-2 ps-2">
+          <a class="nav-link link-light" aria-current="page" href="#">H. Travel M. L.</a>
+        </li>
+        <li class="nav-item pe-2 ps-2">
+          <a class="nav-link link-light" href="#">CS-Shoes</a>
+        </li>
+        <li class="nav-item pe-2 ps-2">
+          <a class="nav-link link-light" href="#">Sassy Interiors</a>
+        </li>
+        <li class="nav-item pe-2 ps-2">
+          <a class="nav-link link-light" href="#">JS House & Garden</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+    <nav class="navbar navbar-nav"> 
+    <div class="container-fluid">
+      <ul class="navbar navbar-nav roboto fs-tiny text-uppercase flex-lg-row mt-0 mb-3">
+        <li class="nav-item">
+          <a class="nav-link link-light" aria-current="page" href="#">Privacy Policy & Cookies</a>
+        </li>
+        <li class="nav-item pe-2 ps-2">
+          <a class="nav-link link-light" aria-current="page" href="#">Terms & Conditions</a>
+        </li>
+        <li class="nav-item pe-2 ps-2">
+          <a class="nav-link link-light" href="#">Contact</a>
+        </li>
+        <li class="nav-item pe-2 ps-2">
+          <a class="nav-link link-light" href="#">Complaints</a>
+        </li>
+        <li class="nav-item pe-2 ps-2">
+          <a class="nav-link link-light" href="#">Careers</a>
+        </li>
+        <li class="nav-item pe-2 ps-2">
+          <a class="nav-link link-light" href="#">Modern Slavery Statement</a>
+        </li>
+        <li class="nav-item pe-2 ps-2">
+          <a class="nav-link link-light" href="#">Subscribe</a>
+        </li>
+        <li class="nav-item pe-2 ps-2">
+          <a class="nav-link link-light" href="#">Preferences</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+    <div class="roboto fs-tiny text-uppercase pb-5">© 2021 Front-End Media</div>
+  </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+</html>
