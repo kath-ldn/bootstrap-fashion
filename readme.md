@@ -1,20 +1,56 @@
-# bootstrap fashion
-## a webpage for an online fashion magazine, based on one of the most popular global fashion brand's websites
+# Bootstrap Fashion
+### A homepage for an online fashion magazine, based on one of the most popular global fashion brands.
 
-I made this page for one of The Odin Project's HTML/CSS module tasks, focused on learning how to use the CSS framework Bootstrap.
+## About
 
-The original task was to duplicate a news website, however I had done quite a lot of similar tasks with similarly-styled web pages recently, so decided to create a different type of website. There are similarities to the original task in terms of the elements and styles used on the news website and the fashion website, but this gave me a chance to explore different layouts.
+I developed this page for [The Odin Project HTML/CSS module Project: Using Bootstrap](https://www.theodinproject.com/paths/full-stack-javascript/courses/html-and-css/lessons/using-bootstrap). The purpose of this was to practice using Bootstrap. 
 
-### learnings
+TOP's task was to duplicate a news website, however I'd done a lot of this recently with other projects, so I decided to find a different type of website to replicate (with similar features and elements to the website in the original brief). This gave me a chance to explore different layouts, styles and typography.
 
-Overall I feel as though this project has deepened my understanding of Bootstrap and responsive design, and I would feel confident using Bootstrap in future. I also feel as though I have a good understanding as to when you would and wouldn't use Bootstrap.
+### Live Demo
 
-For a simple and functional website where minimal customisation is needed, Bootstrap would be useful in reducing the time needed to create an attractive and responsive website. However, for a more customised/designed website, Bootstrap may not be the best choice. For the more designed aspects of the website, I found myself using lots of margin/padding workarounds, which can cause issues when resizing the webpage.
+[GitHub Pages](https://kath-ldn.github.io/bootstrap-fashion/)
 
-I would also like to create the website dynamically creating elements using JS or JSReact, I felt I could be more efficient using JS rather than adding elements and classes manually. However, as this is part of the HTML/CSS module, that was out of scope of this exercise.
+### Built with
 
-### known issues
+* HTML
+* Bootstrap 5.0
+* CSS
 
-- For the purposes of the exercise I did not install Bootstrap and instead used jsDelivr. I also haven't used SASS, which is something I will learn in future.
-- As this is part of the HTML/CSS course I haven't used any custom JS, which would no doubt improve the page.
-- Sizing/positioning/spacing is not as neat/consistent as I would like, because I tried to use Bootstrap presets as much as possible as opposed to customising everything.
+### Key Learnings
+
+This project has really deepened my understanding of Bootstrap and responsive design. I am confident using Bootstrap in future.
+
+I also feel like I understand which projects would and wouldn't benefit from Bootstrap. For a simple and functional website with minimal-moderate customisation, Bootstrap would be very useful in reducing the time needed to create an attractive and responsive website. For a more customised or design-focused site, Bootstrap may not be the best choice.
+
+In this project to create the more bespoke aspects of the website, I found myself using some workarounds with Bootstrap classes. While I am pleased with the overall effect, this could cause some issues with responsive design.
+
+If I were to re-do this website, I may not use Bootstrap, or I may just use it for some components (e.g. the nav) and customise the rest. I would also explore creating the website dynamically using JS as I feel this could be more efficient rather than adding lots of HTML elements manually. However, as this is part of the HTML/CSS module, that was out of scope of this exercise.
+
+## Prerequisites & Installation
+
+No special requirements [as I used jsDelivr rather than downloading Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/). 
+
+## Licence
+
+Distributed under the [MIT](https://choosealicense.com/licenses/mit/) licence.
+
+Copyright (c) [2021] [Kath Turner]
+
+## Roadmap
+
+* More pages to be added
+    * Page for article 'topic' that you reach by clicking one of the Nav links, or sections in the main body (e.g. 'News);
+    * 1-2 example article pages.
+
+### Known Issues
+
+* Sizing, positioning and spacing is not as consistent as I would like because I used Bootstrap classes as much as possible rather than customising everything.
+* Where I have customised, I expect this could have been more organised and concise using a pre-processor such as SASS.
+
+## Acknowledgements
+
+* Google Fonts
+* GitHub Pages
+* Bootstrap 5.0
+* Bootstrap Icons
